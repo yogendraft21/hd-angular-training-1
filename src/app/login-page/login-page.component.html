@@ -1,0 +1,17 @@
+<div class="login-container">
+    <mat-card class="login-card">
+      <div class="login-card-title">Login Page</div>
+      <mat-card-content>
+        <div>
+          <mat-form-field appearance="fill" class="input-div">
+            <mat-label>Username</mat-label>
+            <input matInput [(ngModel)]="username" id="username">
+          </mat-form-field>
+        </div>
+        <div class="button-group">
+          <button mat-raised-button color="primary" (click)="continue()">Continue</button>
+          <button mat-button class="cancel-button" (click)="cancel()">Cancel</button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
